@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f1f1f1;
+}
+
+.game-container {
+    border-radius: 10px;
+    /* display: flex; */
+    width: 50vw;
+    margin: auto;
+    margin-top: 8%;
+    border: 2px solid black;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+  background-color: #ffffff;
+
+}
+
+.btn {
+  margin: 10px 10px;
+  width: 5rem;
+  height: 2rem;
+  background-color: blue;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 1px 0px 5px #a7a7a7;
+
+}
+
+.btn:hover {
+  background-color: red;
+  font-weight: bold;
+  color: white;
+}
+.btn:active {
+    box-shadow: none;
+}
